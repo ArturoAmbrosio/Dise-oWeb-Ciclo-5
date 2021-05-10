@@ -1,0 +1,8 @@
+/*.externo{
+    color: green;
+}*/ 
+/*A todos, en cambio el de abajo, solo a links*/ 
+
+a[class="externo"]{
+    color: green;
+}
