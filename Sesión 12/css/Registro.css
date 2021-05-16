@@ -1,0 +1,53 @@
+
+body {
+background: #727275;
+font-size: 14px;
+line-height: 22px;
+color:black;
+  }
+h1{
+font-size: 35px;
+text-align: center;
+vertical-align: middle;
+}
+#caja0{
+width: 800px;
+height: auto;
+margin: 50px auto;
+background-color: white;
+display: table;
+}
+.caja1{
+text-align: center;
+display: table;
+padding-right: 20px;
+vertical-align: auto;
+}
+.titulo{
+height: 100px;
+width: 800px;
+margin: 2 rem auto;
+text-align: right;
+display: table;
+}
+.caja2{
+    text-align: center;
+    
+
+}
+.caja21{
+    
+    height:-200px; 
+    width:150px; 
+    margin: 0px -172px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+.caja22{
+    text-align: center;
+}
+
+
+
+
