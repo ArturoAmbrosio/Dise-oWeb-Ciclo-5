@@ -36,7 +36,7 @@ footer {
     background-color: darkorchid;
 }
 
-#boton1,#boton2,#boton3,#boton4{
+#bt1,#bt2,#bt3,#bt4{
     
    height: 25%;
 
@@ -57,7 +57,7 @@ footer {
     float: right;
     position: relative;
     bottom: 80px;
-    right: 432px;
+    right: 415px;
 }
 
 #iniciarSesion{
@@ -99,3 +99,29 @@ footer {
     height: 100%;
 }
 
+.boton1,.boton2,.boton3,.boton4{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.boton1:hover{
+    background-color: rgb(235, 137, 255);
+    color: black;    
+}
+.boton2:hover{
+    background-color: rgb(235, 137, 255);
+    color: black;    
+}
+.boton3:hover{
+    background-color: rgb(235, 137, 255);
+    color: black;    
+}
+.boton4:hover{
+    background-color: rgb(235, 137, 255);
+    color: black;    
+}
+
+.boton1{
+    url
+}
