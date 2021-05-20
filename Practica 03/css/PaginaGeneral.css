@@ -9,6 +9,7 @@
     grid-template-columns: 180px 1fr 250px;
     grid-template-rows: 200px 1fr 135px;
     grid-template-areas: "my-nav my-header my-header""my-section my-section my-aside""my-footer my-footer my-footer";
+    overflow: hidden;
 }
 
 header {
@@ -124,31 +125,22 @@ footer {
 .boton1,
 .boton2,
 .boton3,
-.boton4 {
+.boton4,.botonP1,.botonP2,.botonP3,.botonP4,.botonP5,.botonP6 {
     background-color: black;
     cursor: pointer;
     color: white;
 }
 
-.boton1:hover {
+.boton1:hover,.boton2:hover,.boton3:hover,.boton4:hover {
     background-color: rgb(235, 137, 255);
     color: black;
 }
 
-.boton2:hover {
+.botonP1:hover,.botonP2:hover,.botonP3:hover,.botonP4:hover,.botonP5:hover,.botonP6:hover {
     background-color: rgb(235, 137, 255);
     color: black;
 }
 
-.boton3:hover {
-    background-color: rgb(235, 137, 255);
-    color: black;
-}
-
-.boton4:hover {
-    background-color: rgb(235, 137, 255);
-    color: black;
-}
 
 .piepagina {
     background-color: black;
@@ -295,7 +287,7 @@ footer {
     margin-left: 32.5%;
     margin-right: 40%;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     padding: 1px;  
 }
 
@@ -304,7 +296,7 @@ footer {
     margin-left: -37.9%;
     margin-right: 40%;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     padding: 1px;  
 }
 .botonP6{
@@ -312,7 +304,77 @@ footer {
     margin-left: -37.6%;
     margin-right: 10%;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     padding: 1px;  
 }
+.contactosTitulo{
+    
+    font-family: Arial;
+    margin-left: 5%;
+    margin-right: 70%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+    font-size: 15px;
+}
+.ubicacion{
+    
+    font-family: Arial;
+    margin-left: 70%;
+    margin-right: 20%;
+    margin-top: -2.3%;
+    margin-bottom: 0%;
+    font-size: 15px;
+
+}
+.formulario{
+    border: white solid;
+    background-color: rgb(160,252,252);
+    font-family: Arial;
+    margin-left: 5%;
+    margin-right: 30%;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    padding-bottom: 10%;
+    font-size: 15px;
+}
+.textforms{
+    
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.cajastexto{
+    
+    font-size: 20px;
+    margin-right: 31.1%;
+    margin-left: 16%;
+    margin-top: -36.5%;
+    margin-bottom: 0%;
+    height: 20%;
+    padding-bottom:5.5%;
+    text-align: left;
+    
+}
+
+.btsformulario{
+    margin-top: 5.5%;
+    margin-left: 16%;   
+}
+.btf{
+    color: white;
+    background-color: rgb(8,140,252);
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 15%;  
+    
+}
+.imgUbic{
+    margin-left: 70%;
+    margin-top: -24%;
+    border: black solid;
+}
+
+
 
