@@ -1,0 +1,5 @@
+#caja1{
+    box-sizing: border-box; /* Espaciado interno y externo sumen un solo espaciado */
+    margin: -10px; /* no haya margenes hacia fuera */
+    padding: 5px;/* no haya margenes hacia dentro */
+}

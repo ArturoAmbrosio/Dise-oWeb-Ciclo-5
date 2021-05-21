@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Proyecto03.css">
+    <title>Encuesta cinematográfica</title>
+</head>
+
+<body bgcolor="black">
+    <div id="Contenedor">
+        <h2 class="titulo">Encuesta de cine: Nominadas al Oscar 2018</h2>
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
+            <fieldset class="casillas" style="background-image: url(img/MK\ Datos\ Personales.jpg);">
+                <legend class="subtitulos">Datos Personales</legend>
+                <label for="nombre" class="subtitulos">Nombre</label> <br>
+                <input type="text" name="nombre" id="nombre"> <br>
+                <label for="dni" class="subtitulos">DNI</label><br>
+                <input type="text" name="dni" id="dni" maxlength="9"> <br>
+                <label for="edad" class="subtitulos">Edad</label> <br>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2"> <br>
+                <label for="sexo" class="subtitulos">Sexo</label> <br>
+
+                <select name="listaSexo">
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                </select>
+            </fieldset>
+
+            <div class="casillas">
+
+                <fieldset style="background-image: url(img/Mejor\ Película.jpg);">
+                    <legend class="subtitulos">Mejor Película</legend>
+                    <input type="radio" name="película" value="11"> Call Me Be Your Name <br>
+                    <input type="radio" name="película" value="22"> Dunkerque<br>
+                    <input type="radio" name="película" value="33"> Déjame Salir <br>
+                    <input type="radio" name="película" value="33"> La forma del Agua <br>
+
+
+                </fieldset>
+            </div>
+
+
+
+
+            <div class="casillas">
+                <fieldset style="background-image: url(img/Mejor\ película\ animada.jpg);">
+                    <legend class="subtitulos">Mejor Película Animada</legend>
+                    <input type="checkbox" name="película" value="11"> Wifi Ralph <br>
+                    <input type="checkbox" name="película" value="22"> Spider-Man: Un nuevo universo<br>
+                    <input type="checkbox" name="película" value="33"> Isla de Perros <br>
+                    <input type="checkbox" name="película" value="44"> Los increíbles 2 <br>
+
+                </fieldset>
+
+            </div>
+
+            <div class="casillas">
+                <fieldset style="background-image: url(img/Mejor\ Pelicula\ Extranjera.jpg);">
+                    <legend class="subtitulos">Mejor Película Extranjera</legend>
+                    <input type="checkbox" name="película" value="11"> En cuerpo y Alma <br>
+                    <input type="checkbox" name="película" value="22"> Sin amor <br>
+                    <input type="checkbox" name="película" value="33"> El insulto<br>
+                    <input type="checkbox" name="película" value="44"> Una mujer fantástica <br>
+
+                </fieldset>
+
+            </div>
+
+
+
+            <fieldset class="casillas">
+                <legend>Argumento de tu película preferida</legend>
+                <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+            </fieldset>
+            <br>
+
+            <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+</body>
+
+</html>

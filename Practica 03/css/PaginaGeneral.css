@@ -20,7 +20,7 @@ header {
 nav {
     grid-area: my-nav;
     background-color: rgb(0, 255, 242);
-    
+
 }
 
 aside {
@@ -48,13 +48,13 @@ footer {
 }
 
 .foto {
-    
+
     width: 144px;
     height: 200px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 .titulo {
@@ -96,7 +96,7 @@ footer {
     margin-top: 50px;
     margin-bottom: 80px;
     font-family: Arial;
-    
+
 
 
 }
@@ -125,18 +125,32 @@ footer {
 .boton1,
 .boton2,
 .boton3,
-.boton4,.botonP1,.botonP2,.botonP3,.botonP4,.botonP5,.botonP6 {
+.boton4,
+.botonP1,
+.botonP2,
+.botonP3,
+.botonP4,
+.botonP5,
+.botonP6 {
     background-color: black;
     cursor: pointer;
     color: white;
 }
 
-.boton1:hover,.boton2:hover,.boton3:hover,.boton4:hover {
+.boton1:hover,
+.boton2:hover,
+.boton3:hover,
+.boton4:hover {
     background-color: rgb(235, 137, 255);
     color: black;
 }
 
-.botonP1:hover,.botonP2:hover,.botonP3:hover,.botonP4:hover,.botonP5:hover,.botonP6:hover {
+.botonP1:hover,
+.botonP2:hover,
+.botonP3:hover,
+.botonP4:hover,
+.botonP5:hover,
+.botonP6:hover {
     background-color: rgb(235, 137, 255);
     color: black;
 }
@@ -155,7 +169,8 @@ footer {
     margin-bottom: 0px;
 
 }
-.textopie{
+
+.textopie {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 10px;
@@ -176,7 +191,7 @@ footer {
 
 
 .InfoContacto {
-    
+
     margin-left: 150px;
     margin-right: 1160px;
     margin-top: -150px;
@@ -186,7 +201,7 @@ footer {
 }
 
 .Sig {
-    
+
     margin-left: 400px;
     margin-right: 980px;
     margin-top: -100px;
@@ -194,8 +209,9 @@ footer {
     font-size: 14.5px;
     font-family: Arial;
 }
+
 .EnInt {
-    
+
     margin-left: 575px;
     margin-right: 800px;
     margin-top: -100px;
@@ -204,8 +220,8 @@ footer {
     font-family: Arial;
 }
 
-.MenuPie{
-    
+.MenuPie {
+
     margin-left: 750px;
     margin-right: 620px;
     margin-top: -100px;
@@ -218,13 +234,14 @@ footer {
 
 
 
-.caja1,.caja2{
+.caja1,
+.caja2 {
     font-family: Arial;
     margin-left: 30px;
     font-size: 14.5px;
 }
 
-.caja3{
+.caja3 {
     font-family: Arial;
     margin-left: 50px;
     margin-right: 30px;
@@ -233,82 +250,87 @@ footer {
     font-size: 13px;
     text-align: justify;
 }
-.titulosCU{
+
+.titulosCU {
     color: blue;
 }
 
-.caja4{
-    
+.caja4 {
+
     margin-left: 31.65%;
     margin-right: 31.65%;
     margin-top: 0%;
     margin-bottom: 0%;
     padding: 1px;
-    
+
 }
-.botonP1{
+
+.botonP1 {
     border: red solid;
     margin-left: 32.5%;
     margin-right: 40%;
     margin-top: 1%;
     margin-bottom: 0%;
-    padding: 1px;  
+    padding: 1px;
 }
 
-.botonP2{
+.botonP2 {
     border: red solid;
     margin-left: -37.9%;
     margin-right: 40%;
     margin-top: 1%;
     margin-bottom: 0%;
-    padding: 1px;  
+    padding: 1px;
 }
-.botonP3{
+
+.botonP3 {
     border: red solid;
     margin-left: -37.6%;
     margin-right: 10%;
     margin-top: 1%;
     margin-bottom: 0%;
-    padding: 1px;  
+    padding: 1px;
 }
 
-.caja5{
-    
+.caja5 {
+
     margin-left: 31.65%;
     margin-right: 31.65%;
     margin-top: 1%;
     margin-bottom: 0%;
     padding: 1px;
-    
+
 }
 
-.botonP4{
+.botonP4 {
     border: red solid;
     margin-left: 32.5%;
     margin-right: 40%;
     margin-top: 1%;
     margin-bottom: 7%;
-    padding: 1px;  
+    padding: 1px;
 }
 
-.botonP5{
+.botonP5 {
     border: red solid;
     margin-left: -37.9%;
     margin-right: 40%;
     margin-top: 1%;
     margin-bottom: 7%;
-    padding: 1px;  
+    padding: 1px;
 }
-.botonP6{
+
+.botonP6 {
     border: red solid;
     margin-left: -37.6%;
     margin-right: 10%;
     margin-top: 1%;
     margin-bottom: 7%;
-    padding: 1px;  
+    padding: 1px;
 }
-.contactosTitulo{
-    
+
+.contactosTitulo {
+
     font-family: Arial;
     margin-left: 5%;
     margin-right: 70%;
@@ -316,8 +338,9 @@ footer {
     margin-bottom: 0%;
     font-size: 15px;
 }
-.ubicacion{
-    
+
+.ubicacion {
+
     font-family: Arial;
     margin-left: 70%;
     margin-right: 20%;
@@ -326,9 +349,10 @@ footer {
     font-size: 15px;
 
 }
-.formulario{
+
+.formulario {
     border: white solid;
-    background-color: rgb(160,252,252);
+    background-color: rgb(160, 252, 252);
     font-family: Arial;
     margin-left: 5%;
     margin-right: 30%;
@@ -337,40 +361,44 @@ footer {
     padding-bottom: 10%;
     font-size: 15px;
 }
-.textforms{
-    
+
+.textforms {
+
     font-size: 20px;
     margin-top: 2%;
     margin-left: 3%;
 }
 
-.cajastexto{
-    
+.cajastexto {
+
     font-size: 20px;
     margin-right: 31.1%;
     margin-left: 16%;
     margin-top: -36.5%;
     margin-bottom: 0%;
     height: 20%;
-    padding-bottom:5.5%;
+    padding-bottom: 5.5%;
     text-align: left;
-    
+
 }
 
-.btsformulario{
+.btsformulario {
     margin-top: 5.5%;
-    margin-left: 16%;   
+    margin-left: 16%;
 }
-.btf{
+
+
+.btf {
     color: white;
-    background-color: rgb(8,140,252);
+    background-color: rgb(8, 140, 252);
     text-align: center;
     border-radius: 5px;
     font-weight: bold;
-    width: 15%;  
-    
+    width: 15%;
+
 }
-.imgUbic{
+
+.imgUbic {
     margin-left: 70%;
     margin-top: -24%;
     border: black solid;
@@ -378,3 +406,78 @@ footer {
 
 
 
+
+.InSesion {
+    background-color: rgb(160, 204, 252);
+    margin-top: 5%;
+    margin-left: 24%;
+    border: white solid;
+    width: 50%;
+    height: 60%;
+
+}
+
+.contenidoInSesion {
+    padding: 2%;
+
+}
+
+.usuario {
+    margin: 2%;
+    margin-right: 2%;
+    width: 50%;
+    height: 20px;
+    color: gray;
+
+}
+
+.ingresar {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    height: 35px;
+    margin-top: -7%;
+    margin-left: 70%;
+    cursor: pointer;
+    border-radius: 7%;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.password {
+    margin: 2%;
+    margin-right: 2%;
+    width: 50%;
+    height: 20px;
+    color: gray;
+
+}
+
+.nuevoUs {
+    margin-top: -9%;
+    margin-left: 68%;
+    font-family: Arial;
+    color: gray;
+    font-size: 12px;
+
+}
+
+.registrarse {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    height: 35px;
+    margin-left: 70%;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 7%;
+}
+
+.ingresar:hover,
+.registrarse:hover {
+    background-color: rgb(235, 137, 255);
+    color: black;
+}

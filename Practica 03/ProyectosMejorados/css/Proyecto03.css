@@ -1,0 +1,21 @@
+
+.titulo{
+    margin: 0px;
+    height: 40px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    font-family: Arial;
+
+
+}
+.subtitulos{
+    color: white;
+}
+
+.casillas{
+    color: white;
+    font-family: Arial;
+}
+
+
