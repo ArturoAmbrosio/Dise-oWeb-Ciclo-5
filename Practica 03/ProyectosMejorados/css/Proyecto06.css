@@ -1,15 +1,17 @@
 * {
-    margin: 0px;
+    margin: 0;
 }
 
 .grid {
-    max-width: 100%;
+    max-width: 1000px;
+    margin: auto;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100px 50px 1fr 100px 50px;
-    grid-template-areas: "my-header" "my-nav" "my-section" "my-aside" "my-footer" ;
+    grid-template-rows: 100px 200px 1fr 250px 50px;
+    grid-template-areas: "my-header""my-nav""my-section""my-aside""my-footer";
     overflow: hidden;
+    border: 2px solid yellow;
 }
 
 header {
@@ -19,7 +21,7 @@ header {
 
 nav {
     grid-area: my-nav;
-    background-color: rgb(0, 255, 242);
+    background-color: grey;
 }
 
 aside {
@@ -29,88 +31,170 @@ aside {
 
 section {
     grid-area: my-section;
-    background-color: white;
+    background-color: indigo;
+    padding: 10px ;
 }
 
 footer {
     grid-area: my-footer;
-    background-color: rgb(160,52,204);
+    background-color: rgb(160, 52, 204);
 }
 
-.piepagina{
+.piepagina {
     text-align: center;
     font-family: Arial;
-    font-size: 10px;
+    font-size: 13px;
     color: white;
-    margin-top: 2%;
+    margin-top: 3%;
 }
-header>p{
+
+header>p {
     font-size: 20px;
-    
+
     font-family: 'Franklin Gothic Medium';
-    
+
 }
-header>h3{
+
+header>h3 {
     font-family: Arial;
     color: red;
     font-size: 13.5px;
 }
-header>img{
+
+header>img {
     width: 112px;
     height: 112px;
     margin-top: -69px;
     margin-left: 200px;
 }
 
+/*-------------------------*/
+nav>ul{
+    list-style: none;
+    line-height: 30px;
+    padding: 20px;
+}
+.menu li a{
+    color: white;
+}
 
-@media(min-width: 600px) and (max-width: 1000px){
-    .grid {
-        grid-template-columns: 30% 70%;
-        grid-template-rows: 150px 50px 1fr 100px;
-        grid-template-areas: "my-header my-header" "my-nav my-nav"  "my-aside my-section " "my-footer my-footer ";
-        
-    }
+.menu a:hover{
+    color:red;
+}
+.menu{
+    text-align: center;
+    font-family: Arial;
+}
+/*-------------------------*/
+
+article{
+    width: 96%;
+    height: 96%;
+    margin: 2.5% auto;
+    padding: 7%;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    color: black;
+    font-family: Arial;
+}
+article img{
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+article p{
+    text-align: justify;
+    font-size: 14px;
     
-    header>p{
+}
+
+article h2{
+    font-size: 15px;
+    
+}
+/*-------------------------*/
+
+aside{
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+@media(min-width: 600px) and (max-width: 1000px) {
+    .grid {
+        max-width: 1000px;
+        margin: auto;
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 200px 1fr 100px;
+        grid-template-areas: "my-header my-header""my-nav my-nav""my-aside my-section ""my-footer my-footer ";
+
+    }
+
+    header>p {
         font-size: 30px;
     }
-    .piepagina{
-        font-size: 11.5px;
+
+    .piepagina {
+        font-size: 13px;
+        margin-top: 5%;
     }
-    header>h3{
+
+    header>h3 {
         font-size: 20.2px;
     }
-    header>img{
+
+    header>img {
         width: 162px;
         height: 162px;
         margin-top: -96px;
         margin-left: 350px;
     }
 
+    .menu{
+        text-align: center;
+    }
+    
+    
+
 }
 
-@media(min-width: 1001px){
+@media(min-width: 1001px) {
     .grid {
-        grid-template-columns: 300px 1fr 300px;
-        grid-template-rows: 200px 1fr 100px;
-        grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+        max-width: 1000px;
+        margin: auto;
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 230px 1fr 230px;
+        grid-template-rows: 200px 1fr 50px;
+        grid-template-areas: "my-header my-header my-header""my-nav my-section my-aside""my-footer my-footer my-footer";
     }
-    header>p{
+
+    header>p {
         font-size: 40px;
     }
-    .piepagina{
+
+    .piepagina {
         font-size: 13px;
+        margin-top: 0.5%;
     }
-    header>h3{
+
+    header>h3 {
         font-size: 27px;
     }
 
-    header>img{
+    header>img {
         width: 215px;
         height: 220px;
         margin-top: -132px;
         margin-left: 770px;
     }
 
-}
+    .menu{
+        text-align: left;
+    }
+    
+    
 
+}
