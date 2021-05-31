@@ -1,0 +1,11 @@
+#cont1{
+    border:crimson 3px solid;
+    width: 10%;
+    height: 130px; 
+    padding: 10px;
+    background-color: aqua
+}
+
+div li{
+    list-style-type: none;
+}
