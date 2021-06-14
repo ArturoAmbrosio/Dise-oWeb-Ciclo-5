@@ -1,0 +1,8 @@
+#contenedor{
+    background-color: rgb(226, 226, 226);
+}
+
+div[class^="col"]{ /* la clase que inicie con "col" */
+    border: grey 1px solid;
+}
+
