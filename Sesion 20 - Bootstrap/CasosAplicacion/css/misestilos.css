@@ -5,7 +5,7 @@ html,body{
 #cover{
     background: #222 url(../img/Cabecera\ Perrito.jpg) center no-repeat;
     background-size: 100%;
-    color: white;
+    color: black;
     height: 100%;
     text-align: center;
     display: flex;
@@ -14,4 +14,9 @@ html,body{
 
 #cover-texto{
     width: 100%;
+}
+
+
+#iconos{
+    font-size: 40px;
 }
