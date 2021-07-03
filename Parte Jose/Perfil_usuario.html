@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/Pin.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/Estilo_Usuario.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+
+    <div class="fluid">
+
+        <div class="row ">
+            <header class="p-0 bg-dark text-white">
+                <div class="container-fluid pie">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
+
+                        <img src="Img/Logo-White.png" class="logo_header mx-4 my-2" alt="">
+
+
+                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                            <li><a href="Index.html" class="nav-link py-1 mx-2 text-white boton_nav">Inicio</a></li>
+                            <li><a href="#" class="nav-link py-1 mx-2 text-white boton_nav">Loot</a></li>
+                            <li><a href="#" class="nav-link py-1 mx-2 text-white boton_nav">Box</a></li>
+                            <li><a href="#" class="nav-link py-1 mx-2 text-white boton_nav">Noticias</a></li>
+                            <li><a href="#" class="nav-link py-1 mx-2 text-white boton_nav">Nosotros</a></li>
+                        </ul>
+
+
+                        <div class="text-end">
+                            <a href="facebook.com"><img src="Img/lupa.png" class="miniIcono2 me-2" alt=""></a>
+
+                            <button type="button" class="btn btn-light me-2 fw-bold" id="login">Registrarse | Iniciar
+                                Sesión</button>
+                            <a href="facebook.com"><img src="Img/carrito.png" class="miniIcono me-4" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+
+        <div class="row">
+            <section class="col">
+
+                <!-- Izquierda -->
+                <div class="row px-5">
+
+                    <div class="col-lg-4 col-md-12 col-sd-12 d-flex justify-content-center p-3">
+
+                        <div class="row text-center">
+                            <div class="col-12 d-flex justify-content-center align-items-end">
+                                <img class="marco_perfil" src="Img/Perfil_1.jpg" alt="">
+
+                            </div>
+
+                            <h4 class="arcade col-12 mt-2">Pedrito Navaja</h4>
+                            <div class="col-7 mt-2 text-start mx-auto">
+
+                                <h4 class="fw-bold">Nivel 1: <a href=""><i  style="float: right; color: black;" class="far fa-question-circle "></i></a> </h4>
+                                <div class="progress barra">
+
+                                    <div class="progress-bar" role="progressbar" style="width: 50%; border-radius: 2px;"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+                                </div>
+                            </div>
+
+                            <h6 class="arcade col-12 mt-4">FECHA DE REGISTRO</h6>
+                            <h5 id="fecha_registro" class="fw-bold">01/06/2021</h5>
+
+                            <h6 class="arcade col-12 mt-4">REGISTRO DE COMPRAS</h6>
+                            <a class="col-6 btn btn-dark boton_usuario mx-auto" href="">Consultar</a>
+
+                            <h6 class="arcade col-12 mt-4">COMPRAS TOTALES</h6>
+                            <h5 id="num_compras" class="fw-bold">0</h5>
+
+
+                        </div>
+                    </div>
+
+                    <!-- Derecha -->
+                    <div class="col-lg-8 col-md-12 col-sd-12 px-5 my-3 borde_oscuro">
+
+                        <!-- 1-->
+                        <div class="row mt-4">
+                            <div class="col-lg-3 fw-bold">
+                                Nombres y Apellidos: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- 2 -->
+                        <div class="row mt-1">
+                            <div class="col-lg-3 fw-bold">
+                                Usuario: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                            
+                        </div>
+                        <hr>
+                        <!-- 3 -->
+                        <div class="row mt-1">
+                            <div class="col-lg-3 fw-bold">
+                                Fecha de Nacimiento: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- 4 -->
+                        <div class="row mt-1">
+                            <div class="col-lg-3 fw-bold">
+                                Correo Electrónico: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- 5 -->
+                        <div class="row mt-1">
+                            <div class="col-lg-3 fw-bold">
+                                Correo Alternativo: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- 6 -->
+                        <div class="row mt-1 ">
+                            <div class="col-lg-3 fw-bold">
+                                Contraseña: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- 7 -->
+                        <div class="row mt-1">
+                            <div class="col-lg-3 fw-bold">
+                                Telefono Celular: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- 8-->
+                        <div class="row mt-1">
+                            <div class="col-lg-3 fw-bold">
+                                Dirección: 
+                            </div>
+                            <div class="col-lg-9">
+                                <input class="w-100" type="text" disabled>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- 9 -->
+                        <div class="row mt-1 d-flex justify-content-center mb-2">
+                            <a class="col-4 btn btn-dark boton_usuario mx-auto" href=""> <i class="fas fa-pencil-alt"></i> Actualizar Información</a>
+                        </div>
+                        
+
+                    </div>
+
+
+                </div>
+
+            </section>
+        </div>
+
+
+        <div class="row ">
+            <!-- Footer -->
+            <footer class="bg-dark text-center text-white">
+                <!-- Grid container -->
+                <div class="container-fluid p-2 pie">
+
+                    <!-- Section: Links -->
+                    <section class="">
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <img class="logo" src="Img/Logo-White.png" alt="Logo">
+                                <h6 class="text-uppercase">La caja hacia tu nueva realidad</h6>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                <img class="carta" src="Img/carta.jpg" alt="Logo">
+                                <br>
+                                <a class="btn btn-light boton_footer" href="">CONTACTANOS</a>
+
+
+                            </div>
+                            <!--Grid column-->
+
+
+                            <!--Grid column-->
+                            <div class="col-lg-3 col-md-12 mb-4 mb-md-0 align-self-end ">
+
+
+                                <!-- Facebook -->
+                                <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"><i
+                                        class="fab fa-facebook-f"></i></a>
+
+                                <!-- Instagram -->
+                                <a class="btn btn-primary mx-1" style="background-color: #ac2bac;" href="#!"
+                                    role="button"><i class="fab fa-instagram"></i></a>
+
+                                <!-- Twitter -->
+                                <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"><i
+                                        class="fab fa-twitter"></i></a>
+
+                                <h6 class="my-2">isneoboxlife@gmail.com</h6>
+
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </section>
+                    <!-- Section: Links -->
+                </div>
+                <!-- Grid container -->
+            </footer>
+            <!-- Footer -->
+        </div>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/14fbf06638.js" crossorigin="anonymous"></script>
+    <script src="Js/bootstrap.min.js"></script>
+</body>
+
+</html>

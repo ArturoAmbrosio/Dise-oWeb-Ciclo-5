@@ -100,7 +100,7 @@ header{
 
 /*NOTICA*/
 .Noticias{
-    border: solid #0d7377 ;
+    border-top: solid #0d7377 ;
 }
 
 .blockquote{
@@ -124,6 +124,7 @@ header{
     border: solid black 3px;
     border-radius: 17px;
     font-size: 13px;
+    padding: 5px;
     
 }
 
@@ -145,8 +146,63 @@ header{
     font-size: 20px;
 }
 .TituloFast{
-    border: solid black 5px;
-    margin-top: -4px;
-    margin-left: -4px;
-    margin-right: -4px;
+    border-bottom: solid black 5px;
+    
+}
+
+.carousel{
+    font-family: nimbus;
+}
+
+.regresar{
+    width: 25px;
+    height: 25px;
+}
+
+.cajaNoticia{
+    border: solid whitesmoke 0.3px; 
+}
+
+.btn1{
+    font-family: nimbus;
+    color: white;
+    
+}
+
+.caja0{
+    padding: 50px;
+    
+}
+.subimg{
+    border: solid white 5px;
+}
+.subtext{
+    color: white;
+    font-family: nimbus;
+}
+.fecha{
+    font-size: 20px;
+    
+}
+.contenido{
+    font-size: 14px;
+    
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+.tarjeta{
+    width: 300px;
+}
+
+.tarjeta:hover{
+ opacity: 0.7;
+ background-color: black;
+ color: white;
+}
+.btn1:hover{
+    opacity: 0.7;
 }
